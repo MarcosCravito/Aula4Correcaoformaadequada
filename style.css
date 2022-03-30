@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    background-image: url('cosmo.jpg');
+    /* é utilizado para retirar a margem do site, caso utilize * no lugar de body{} tipo *{}, o que acontece é
+    a retirada de todas as margens de tudo que está presente no site */
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*para alterarmos as configurações simultaneas de 2 marcações como por exemplo as divs mostradas abaixo
+basta digitarmos .(nome),(.nome1) {(alterações)} para que ocorra nas duas ou mais marcações*/
+.data, .post-conteudo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.data{
+    color: rgb(95, 0, 248);
+}
+.principal{
+    width:50%;
+    margin: auto;
+   background-color: burlywood;
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-bottom: 20px;
+
+}
